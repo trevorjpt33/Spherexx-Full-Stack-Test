@@ -1,0 +1,9 @@
+body { line-height: 1.5; font-size: 20px }
+div.content { text-align: center; padding: 10px;}
+div.report_title { font-size:30px; }
+div.floorplan { font-size: 20px; padding: 20px}
+table { border: 1px solid black; }
+table.data { font-size: 20px; padding: 5px;}
+tr.head td { line-height: 1.0; font-size: 25px; background-color: gray; }
+tr.dataa td { padding: 5px;}
+tr.datab td { padding: 5px;}

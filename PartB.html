@@ -1,0 +1,28 @@
+<div class="content-container content-container--column">
+	<div>
+		<strong>Add a new building record</strong><br /><br />
+		<form action="part-b_process.asp" method="post" onsubmit="return validate_form(this);">
+			<table>
+				<tr>
+					<td class="label">Building Name:</td>
+					<td><input type="text" name="BuildingName" style="width: 200px;" maxlength="50" /></td>
+				</tr>
+				<tr>
+					<td class="label">Year Built:</td>
+					<td><input type="text" name="YearBuilt" style="width: 80px;" maxlength="4"  /></td>
+				</tr>
+				<tr>
+					<td class="label">Number of Units:</td>
+					<td><input required="true" type="number" name="NumberOfUnits" style="width: 80px;" maxlength="18"  /></td>
+				</tr>
+
+				<tr>
+					<td> </td>
+					<td><input type="submit" value="Add Building Record" style="width: 200px;" /></td>
+				</tr>
+
+			</table>
+		</form>
+		<div class="sep"> </div>
+	</div>
+</div>
